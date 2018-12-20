@@ -1,0 +1,131 @@
+html
+{
+    height:100%;
+    background: radial-gradient(circle,#fff,#ccc);
+}
+#container{
+    height:400px;
+    width:550px;
+    margin:100px auto;
+    background-color: #9DD2EA;
+    padding:20px;
+    border-radius: 15px;
+    box-shadow:4px 4px 4px 0px #009de4;
+    position: relative;
+}
+#score{
+    position: absolute;
+    background-color:#F1FF92;
+    margin-left: 470px;
+    color:#888EF5;
+    padding:10px;
+    box-shadow:2px 2px 0px 0px #9da853;
+}
+#correct{
+    position:absolute;
+    color: white;
+    background-color:#009933;
+    margin-left: 260px;
+    padding:10px;
+    border:1px solid #009933;
+    display: none;
+}
+#wrong{
+    position:absolute;
+    color: white;
+    background-color: #de401a;
+    margin-left: 260px;
+    padding:10px;
+    border:1px solid #de401a;
+    display: none;
+}
+#ques{
+    
+    background-color: #9999ff;
+    height:130px;
+    width:450px;
+    margin:50px auto 10px auto;
+    box-shadow: 0px 4px 0px 0px #535aa8;
+    font-size:100px;
+    font-family:sans-serif;
+    text-align: center;
+    color:black;
+    padding-top: 10px;
+}
+#ins{
+    height:30px;
+    width:450px;
+    background-color: #B481D9;
+    margin:10px auto; 
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 0px 4px 0px 0px #8153a8;
+}
+#choice{
+    height:100px;
+    width:450px;
+    margin:5px auto;
+}
+.box{
+    width:89px;
+    height:89px;
+    background-color: white;
+    float: left;
+    margin-right:31px;
+    cursor:pointer;
+    border-radius: 6px;
+    box-shadow:0px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.2s ease;
+}
+.box:hover,#startreset:hover{
+    background-color: #9C89F6;
+    color:white;
+    box-shadow:0px 4px #6b54d3;
+}
+.box:active,#startteset:active{
+    box-shadow:0px 0px white;
+    top:4px;
+}
+#b4{
+    margin-right: 0px;
+}
+#startreset{
+    position:absolute;
+    color:black;
+    background-color:#e6ffff;
+    margin-left: 240px;
+    padding:10px;
+    cursor: pointer;
+    border:2px solid #e6ffff;
+     transition: all 0.2s ease;
+}
+#time{
+    width:125px;
+    position: absolute;
+    padding:10px;
+    top:377px;
+    left:400px;
+    background-color: rgba(181,235,36,0.8);
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+    display: none;
+}
+#gameover{
+    height:200px;
+    width:500px;
+    background:linear-gradient(#F3CA6B,#F3706C);
+    position: absolute;
+    top:90px;
+    left:43px;
+    font-size: 2.5em;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: bold;
+    z-index: 2;
+    display: none;
+}
